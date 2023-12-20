@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root,
+.root,
+#root #docs-root {
+  --primary-color: #0b193e !important;
+  --secondary-color: #6d67e4;
+  --secondary-hover: #6d67e49a;
+  --gradiant-color: linear-gradient(
+    180deg,
+    #0b193e 0%,
+    #3d4193 51.04%,
+    #6d67e4 100%
+  );
+  --black-one-color: #000015;
+  --black-two-color: #1d1d1d;
+  --black-three-color: #282828;
+  --white-color: #ebf6fe;
+  --gray-one-color: #333333;
+  --gray-two-color: #4f4f4f;
+  --gray-three-color: #828282;
+  --gray-four-color: #bdbdbd;
+  --success-color: #27ae60;
+  --info-color: #2f80ed;
+  --danger-color: #eb5757;
+  --warning-color: #e2b93b;
+}
+/*Scroll Bar Of Body */
+body::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  outline: 1px solid slategrey;
+}
+/* scroll Bar Of Divs */
+.scrollAction::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+.scrollAction::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.scrollAction::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  outline: 1px solid slategrey;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--primary-color);
+}
+/* button wave */
+
+@keyframes flagwave {
+  0% {
+    background-position: -400px 0px, -400px 0px, -400px 0px, -400px 0px;
+  }
+  100% {
+    background-position: 800px 0px, 800px 0px, 800px 0px, 800px 0px;
+  }
+}
+img {
+  width: auto; /* Set the width to fill its container */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+}
+.flagwave {
+  width: 200px;
+  height: 120px;
+  margin: -220px auto;
+  z-index: 2;
+  background-image: linear-gradient(
+      to right,
+      rgba(235, 235, 235, 0),
+      rgba(235, 235, 235, 0) 40%,
+      rgba(235, 235, 235, 0.3) 90%,
+      rgba(235, 235, 235, 0) 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(200, 200, 200, 0),
+      rgba(200, 200, 200, 0.3) 25%,
+      rgba(200, 200, 200, 0) 50%,
+      rgba(200, 200, 200, 0.3) 80%,
+      rgba(200, 200, 200, 0) 100%
+    );
+  background-size: 200% 100%;
+  background-position: right;
+  animation-name: flagwave;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Container of the page */
+.container {
+  @apply py-20 px-10 max-md:px-3;
+}
+
+.specialText > svg {
+  background: -webkit-linear-gradient(#3f5def, #9f69d5) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: #7b42d5 !important;
+}
+
+.slick-slider {
+  width: 100% !important;
+}
+
+.slick-list {
+  width: 100% !important;
+}
+.slick-slide div {
+  display: flex;
+  justify-content: center !important;
+  padding: 10px;
+}
+.slick-slider .slick-arrow {
+  color: black !important;
+}
+.slick-prev::before {
+  content: "\F284" !important;
+  font-family: "Bootstrap-icons" !important;
+  font-size: 20px !important;
+  color: black !important;
+}
+[dir="rtl"] .slick-prev::before {
+  content: "\F285" !important;
+  font-family: "Bootstrap-icons" !important;
+  font-size: 20px !important;
+  color: black !important;
+}
+.slick-next::before {
+  content: "\F285" !important;
+  font-family: "Bootstrap-icons" !important;
+  font-size: 20px !important;
+  color: black !important;
+}
+[dir="rtl"] .slick-next::before {
+  content: "\F284" !important;
+  font-family: "Bootstrap-icons" !important;
+  font-size: 20px !important;
+  color: black !important;
+}
+/* ===========> End of SlickArrows <============= */
+
+/* ===========> Paginator <============= */
+/* Paginator Of Tables */
+.p-paginator-element {
+  color: #000015ce;
+  min-width: 2rem;
+  height: 2rem;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.p-paginator-element:hover {
+  background-color: #2f81ed79;
+  color: white;
+}
+.p-highlight {
+  background-color: #2f81ed79;
+  color: white;
+}
+
+/* ===========> End of Paginator <============= */
+
+.adminBox {
+  @apply flex shadow-[0_4px_14px_0_rgba(0,0,0,0.25)] rounded-[24px] p-[15px] max-md:w-full;
+}
+.adminBoxTitle {
+  @apply text-[black-color-one] text-[16px] font-[600] text-start;
+}
+.scrollAction {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.smallBtn {
+  @apply text-white bg-secondary-color rounded-full py-2 px-5 transition-colors;
+}
+.sideBarLink {
+  @apply flex items-center justify-center rounded-[1.5rem] px-[1rem] py-[0.8rem] text-base font-medium text-black hover:text-white hover:bg-secondary-color;
+}
+.sideBarLink.active {
+  @apply bg-secondary-color text-white shadow-2xl;
+}
+.navBarLink {
+  @apply text-base text-primary-color hover:text-secondary-color rtl:font-semibold hover:underline transition-colors;
+}
+.navBarLink.active {
+  @apply text-secondary-color underline text-base rtl:font-semibold;
+}
+
+.responsiveText {
+  font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.bgWithHover {
+  background-color: var(--secondary-color) !important;
+}
+.bgWithHover:hover {
+  background-color: var(--secondary-hover) !important;
+}
+
+/* Special text for recommended */
+.recommended {
+  background-color: var(--success-color);
+  color: white;
+  width: 127px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  padding: 8px 11px;
+  top: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 26px;
+  font-weight: bold;
+  font-size: 15px;
+}

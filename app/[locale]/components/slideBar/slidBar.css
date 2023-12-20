@@ -1,0 +1,49 @@
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    right: -5px;
+    z-index: 11;
+    transition: .2s;
+
+}
+.hoverClass{
+    border-bottom: 2px solid #ECF5FA;
+    right: 5px;
+}
+.hoverClass:last-child{
+    border-bottom: 1px solid rgb(249, 249, 249, 0.7);
+}
+.hoverClass:hover > a{
+    background-color: #ECF5FA !important;
+}
+@media (max-width:500px) {
+    .slid_icon{
+        font-size: 16px;
+    }
+    aside{
+        width: 62px !important;
+        min-width: 62px !important;
+    
+    }
+}
+.icon:hover{
+    transform: rotate(180deg) ;
+
+}
+.icon i:hover{
+    cursor: pointer;
+    transition: .4s;
+}
+.sidebar {
+    position: relative;
+    overflow: visible
+}
+.menuItem{
+    border-bottom: 2px solid #D9D9D9;
+    padding: 5px 0;
+}

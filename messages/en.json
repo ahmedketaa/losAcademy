@@ -1,0 +1,157 @@
+{
+  "CustomNavbar": {
+    "logo-title": "LOS Academy",
+    "home-link": "Home",
+    "about-link": "About",
+    "courses-link": "Courses",
+    "prices-link": "Prices",
+    "feedback-link": "Feedback",
+    "contact-link": "Contact",
+    "login-btn": "Login",
+    "lang-title": "Choose language"
+  },
+  "Hompage": {
+    "hero-title": "Learn From anywhere around the world with us",
+    "hero-paragraph": "Online learning is valuable tool for children’s education and their mindset",
+    "hero-span": "Book your trial session now",
+    "bookNow-btn": "Book Now",
+    "try-title": "Try our free session.",
+    "try-paragraph": "You can choose the suitable day and time for you.",
+    "courses-title": "Our Courses",
+    "course-btn": "Show Details"
+  },
+  "courses": [
+    {
+      "id": 1,
+      "name": "Arabic Language",
+      "paragraph": "The course aims to provide children with a solid foundation in Arabic vocabulary, pronunciation, basic grammar, and essential communication skills."
+    },
+
+    {
+      "id": 2,
+      "name": "Islamic Studies",
+      "paragraph": "The course aims to instill a strong foundation in Islamic knowledge, moral values, and spiritual development."
+    },
+    {
+      "id": 3,
+      "name": "Quran Memorization",
+      "paragraph": "The Quran is the holy book of Islam, and its memorization and recitation are a central part of Muslim religious practice."
+    }
+  ],
+  "AboutUs": {
+    "title-one": "What’s LOS Academy ?",
+    "paragraph-one": "Language of Science Academy is an online learning platform focused on providing comprehensive Arabic language education, along with quality Islamic knowledge courses. Our mission is to make the study of Arabic and Islamic topics accessible to anyone in the world through remote learning technology.",
+    "title-two": "Why choose us ?",
+    "paragraph-two": "We understand the unique needs and learning styles of children. Our website offers age-appropriate content, engaging activities, and interactive materials to make the learning process enjoyable and accessible for kids."
+  },
+  "plans-section": {
+    "plan-title": "Choose the plan that works for you",
+    "plan-btn": "Get this plan",
+  "plans":
+    [
+      {
+          "id": 1,
+          "title": "Customize your Plan",
+          "price": "Start from $50p/ month",
+          "features": {
+              "f-1": "Fixed times",
+              "f-2": "Fixed Prices",
+              "f-3": "You can choose days",
+              "f-4": "Private one-to-one",
+              "f-5": "Professional & Qualified"
+          }
+      },
+      {
+          "id": 2,
+          "title": "5 Days per Week",
+          "price": "$200p/month",
+          "features": {
+              "f-1": "45 mins",
+              "f-2": "Private one-to-one",
+              "f-3": "5 Classes per week",
+              "f-4": "20 Classes Monthly",
+              "f-5": "Professional & Qualified"
+          }
+      },
+      {
+          "id": 3,
+          "title": "4 Days per Week",
+          "price": "$120p/month",
+          "features": {
+              "f-1": "30 mins",
+              "f-2": "Private one-to-one",
+              "f-3": "4 Classes per week",
+              "f-4": "16 Classes Monthly",
+              "f-5": "Professional & Qualified"
+          }
+      },
+      {
+          "id": 4,
+          "title": "3 Days per Week",
+          "price": "$90p/month",
+          "features": {
+              "f-1": "15 mins",
+              "f-2": "Private one-to-one",
+              "f-3": "3 Classes per week",
+              "f-4": "12 Classes Monthly",
+              "f-5": "Professional & Qualified"
+          }
+      }
+    ]
+  },
+    "getInTouch": {
+      "getInTouch-title": "Get in touch",
+      "getInTouch-paragraph": "If you have any unanswered questions feel free to contact us",
+      "getInTouch-btn": "Contact Us"
+    },
+  "feedbackSection": {
+    "feedbackTitle": "Our Students Feedback",
+    "studentsFeedbacks": [
+      {
+        "name": "Maria Hernandez",
+        "country": "England",
+        "comment": "The academy's emphasis on personalized learning is commendable. I feel comfortable asking questions"
+      },
+      {
+        "name": "Hossam Mahmoud",
+        "country": "Egypt",
+        "comment": "The academy's emphasis on personalized learning is commendable. I feel comfortable asking questions"
+      },
+      {
+        "name": "Julia Smith",
+        "country": "France",
+        "comment": "The academy's emphasis on personalized learning is commendable. I feel comfortable asking questions"
+      },
+      {
+        "name": "adam hassan",
+        "country": "Australia",
+        "comment": "The academy's emphasis on personalized learning is commendable. I feel comfortable asking questions"
+      }
+    ]
+  },
+    "Footer": {
+      "footer-title": "All Rights received - Codegate©2023",
+      "footer-follow": "Follow us on"
+  },
+  "eachModal": {
+    "title": "Each Package Includes",
+    "features": [
+      "Get free trial class for any course",
+      "Get a certificate after completing course",
+      "Safe learning environment for you and kids",
+      "One-To-One Live Sessions",
+      "Professional & Qualified"
+    ],
+    "free-btn": "start free trial"
+  },
+  "arabicModal": {
+    "arabicModal-title": "Arabic Language Course",
+    "arabicModal-paragraph": "The Arabic language for kids course is designed to introduce young learners to the fundamentals of the Arabic language in a fun and interactive way. The course aims to provide children with a solid foundation in Arabic vocabulary, pronunciation, basic grammar, and essential communication skills.",
+    "arabicModal-span": "The course covers various aspects of the Arabic language, including:",
+    "arabicModal-list": [
+      "Alphabet and Phonetics: Children learn to recognize and write Arabic letters, understand their sounds, and practice pronunciation through interactive exercises.",
+      "Vocabulary Building: Kids are introduced to a range of age-appropriate vocabulary words, such as colors, numbers, animals, food, and everyday objects. They learn to use these words in simple phrases and sentences.",
+      "Basic Grammar: Children learn basic sentence structure, verb conjugation, and grammatical concepts, such as gender and plural forms."
+      ]
+  }
+}
